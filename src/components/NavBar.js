@@ -1,21 +1,22 @@
 import React from 'react';
+import {Link} from "react-router-dom"
 
-function NavBar( {currentPage, handlePageChange }) {
+function NavBar( {}) {
   return (
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
+<nav className="navbar navbarExpandLg navbarLight bgLight">
   <div className="collapse navbar-collapse" id="navbarNav">
     <ul className="navbar-nav">
-      <li className="nav-item active">
-        <a className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} href="#About" onClick={() => handlePageChange('About')}>About Me</a>
+      <li className="nav-item">
+        <Link to="/" >About</Link>
       </li>
       <li className="nav-item">
-        <a className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} href="#Portfolio" onClick={() => handlePageChange('Portfolio')}>Portfolio</a>
+        <Link to="/portfolio" >Portfolio</Link>
       </li>
       <li className="nav-item">
-        <a className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} href="#Contact" onClick={() => handlePageChange('Contact')}>Contact</a>
+        <Link to="/contact" >Contact</Link>
       </li>
       <li className="nav-item">
-        <a className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} href="#Resume" onClick={() => handlePageChange('Resume')}>Resume</a>
+        <Link to="/resume" >Resume</Link>
       </li>
     </ul>
   </div>
