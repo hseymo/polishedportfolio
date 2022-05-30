@@ -53,9 +53,10 @@ function Comtact() {
         </div>
         <div>
           <label for="message">Message:</label>
-          <input 
+          <textarea 
             name="message"
             type="textarea"
+            rows="10"
             value={message}
             onChange={handleFormChange}
           />
