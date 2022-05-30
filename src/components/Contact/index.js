@@ -22,7 +22,7 @@ function Comtact() {
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
-    alert('Thank you for your message')
+    alert('Thank you sending a message!')
     setName('');
     setEmail('');
     setMessage('');
@@ -31,8 +31,8 @@ function Comtact() {
 
   return (
     <div className="Contact">
-      <h2>Contact Me</h2>
       <form className="Form" onSubmit={handleFormSubmit}>
+      <h2>Contact Me</h2>
         <div>
           <label for="name">Name:</label>
           <input 

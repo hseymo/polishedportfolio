@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <div className="About">
-      <h2>About</h2>
+      <h2>About Me</h2>
       <img alt="Headshot" src={require("./Headshot.jpg")} width='40%' className='headshot'/>            
       <p>My name is Haley and I am happy to have you here, exploring my content! I currently live in Seattle, WA, where I was born and raised. I am a front-end web developer with 6+ years of experience as a licensed healthcare professional. I would like to grow a career in the tech industry that incorporates my extensive background in Sports Medicine, healthcare, and fitness. I am interested in an ambitious and passionate role that allows me to contribute my solution-focused and innovative mindset. I am currently pursuing a web development coding certificate through the University of Washington’s Full Stack MERN program. I have developed skills in HTML, CSS, Javascript and jQuery and look forward to growing my wealth of knowledge through this full time program (anticipated graduation June 2022). So far I have led two group projects - one created a node.js-based platform for book lovers with CRUD routes, RESTful APIs and a Sequelize database while the other built an activity suggestion generator utilizing server-side APIs and local storage.
       <br/><br/>
