@@ -1,8 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
-import Header from './components/Header';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
+import Header from './components/Main/Header';
+import Footer from './components/Main/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -15,7 +14,6 @@ function App() {
     <div className="appContainer">
       <BrowserRouter>
       <Header />
-      <NavBar /> 
       <Routes>
         <Route path="/" element={<About/>} />
         <Route path="/portfolio" element={<Portfolio/>} />
