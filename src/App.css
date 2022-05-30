@@ -34,12 +34,15 @@ nav li {
   border-bottom: 4px solid dodgerblue;
   margin: 10px;
   color: dodgerblue;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  box-shadow: inset 0 0 0 0 #54b3d6;
 }
 
 Footer {
   display: flex;
-  margin-top: 20px;
+  padding-top: 20px;
   background-color: whitesmoke;
+  width: 100vw;
 }
 
 /* Footer a {
@@ -57,7 +60,7 @@ address {
   flex-wrap: wrap;
   justify-content: space-between;
   min-width: 100vw;
-  padding: 0px 20px 20px 0px;
+  padding: 0px 50px 20px 50px;
 }
 
 address a {
@@ -67,15 +70,15 @@ address a {
   color: slategray;
 }
 
-
 nav li:hover {
-  box-shadow: -10px 10px;
   filter: opacity(0.7);
+  box-shadow: inset 100px 0 0 0 dodgerblue;
+  border-radius: 5px;
+  color: white;
 }
 
-
 address a:hover {
-  box-shadow: -10px 10px;
+  box-shadow: 10px 10px;
   filter: opacity(0.7);
 }
 
@@ -106,6 +109,10 @@ address a:hover {
       flex-direction: column;
       min-width: 80vw;
   }
+
+  .headshot {
+    width: 60%
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -134,3 +141,28 @@ address a:hover {
   }
 
 }
+
+
+/* ABOUT ME */
+
+.About, .Contact, .Portfolio, .Resume {
+  background-color: white;
+  padding: 3%;
+  text-align: center;
+}
+
+.About h2, .Contact h2, .Portfolio h2, .Resume h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
