@@ -34,7 +34,7 @@ function Comtact() {
       <form className="Form" onSubmit={handleFormSubmit}>
       <h2>Contact Me</h2>
         <div>
-          <label for="name">Name:</label>
+          <label htmlFor="name">Name:</label>
           <input 
             name="name"
             type="text"
@@ -43,7 +43,7 @@ function Comtact() {
           />
         </div>
         <div>
-          <label for="email">Email:</label>
+          <label htmlFor="email">Email:</label>
           <input 
             name="email"
             type="email"
@@ -52,7 +52,7 @@ function Comtact() {
           />
         </div>
         <div>
-          <label for="message">Message:</label>
+          <label htmlFor="message">Message:</label>
           <textarea 
             name="message"
             type="textarea"

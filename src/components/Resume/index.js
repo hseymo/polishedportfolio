@@ -6,7 +6,7 @@ function Resume() {
       <h2>Resume</h2>
       <h3>Technical Skills</h3>
       <p className="Skills">
-      Javascript React Express jQuery <br/>
+      Javascript React Node.js Express jQuery <br/>
       MySql MongoDB / Sequelize and Mongoose ORM <br/>
       HTML CSS Bootstrap Materialize Handlebars <br/> 
       RESTful APIs CRUD functionality <br/>
