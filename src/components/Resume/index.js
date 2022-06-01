@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 
 function Resume() {
   return (
@@ -7,7 +8,7 @@ function Resume() {
       <h3>Technical Skills</h3>
       <p className="Skills">
       Javascript React Node.js Express jQuery <br/>
-      MySql MongoDB / Sequelize and Mongoose ORM <br/>
+      MySql MongoDB Sequelize ORM Mongoose ORM <br/>
       HTML CSS Bootstrap Materialize Handlebars <br/> 
       RESTful APIs CRUD functionality <br/>
       Git Heroku Agile Methodology <br/>

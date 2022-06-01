@@ -1,0 +1,22 @@
+/* ABOUT ME */
+
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #295982;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.About p:hover {
+  color: #295982;
+  }
+
+  /* MEDIA SCREENS */
+@media screen and (max-width: 831px) {
+  .headshot {
+    width: 60%
+  }
+}

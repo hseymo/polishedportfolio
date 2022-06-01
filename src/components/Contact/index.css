@@ -1,0 +1,38 @@
+/* CONTACT */
+
+.Form {
+  background-color: #295982;
+  border-radius: 20px;
+  border: 5px solid #6FABD0;
+  min-height: 65vh;
+}
+
+.Contact h2 {
+  text-align: center;
+  margin-top: 10px;
+  padding: 15px;
+  color: white
+}
+
+.Form label {
+  display: block;
+  color: white;
+  padding: 10px;
+}
+
+.Form input, textarea {
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 50%;
+  border-radius: 7px;
+  border: 3px solid #6FABD0;
+}
+
+.Form button {
+  background-color: #6FABD0;
+  color: white;
+  padding: 10px;
+  border: 3px solid #6FABD0;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

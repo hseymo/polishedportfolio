@@ -1,0 +1,36 @@
+/* RESUME */
+
+.Resume h3 {
+  margin-top: 50px;
+  padding: 10px;
+  border-bottom: 2px solid #295982;
+}
+
+.Education, .Skills {
+  padding: 5px;
+  line-height: 30px;
+}
+
+.Skills {
+  word-spacing: 20px;
+}
+
+.ResumeBtn {
+  background-color: #295982;
+  color: white;
+  padding: 10px;
+  border: 3px solid #6FABD0;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.ResumeBtn:hover {
+  background-color: #6FABD0;
+  border: 3px solid #295982;
+}
+
+li {
+  list-style-type: none;
+}
