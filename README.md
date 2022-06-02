@@ -10,7 +10,6 @@
 * [Description](#description)
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [Tests](#tests)
 * [Questions](#questions)
 
 <br>
@@ -49,8 +48,7 @@ To install this project:
 2. Clone this project to your machine by using the "git clone + URL" command. 
 3. Open the project with your favorite text editor, like VS Code (in your terminal, first type "cd foldername" then "code ."). 
 4. Install Node.js from their website, if you have not already. Here are some additional [instructions](https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs).
-5. Install [Nodemon](https://www.npmjs.com/package/nodemon).
-8. This project includes a package.json file that specifies dependencies for this project, so be sure to run "npm install". This will install the packages specified in the next section. 
+5. This project includes a package.json file that specifies dependencies for this project, specifically for React. Be sure to run "npm install". 
 
 <br>
 
