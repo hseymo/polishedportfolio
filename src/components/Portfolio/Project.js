@@ -10,9 +10,11 @@ function Project(props) {
             {props.description}
         </p>
         <div className="tags">
-            <a href={props.deployed} target="_blank">
-                <img className="logo" src={require("./assets/visit.png")} width="8%"/>
-            </a>
+            { props.deployed ? (
+        <a href={props.deployed} target="_blank">
+            <img className="logo" src={require("./assets/visit.png")} width="8%"/>
+        </a>
+        ) : <div></div>}
             <a href={props.github} target="_blank">
                 <img className="logo" src={require("./assets/GitHubLogo.png")} width="8%"/>
             </a> 
