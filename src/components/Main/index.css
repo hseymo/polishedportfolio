@@ -74,7 +74,7 @@ Header {
   
   address a {
     margin: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     border-bottom: 3px solid #295982;
     color: #295982;
     text-align: center;
@@ -91,7 +91,6 @@ nav li:hover {
   
   address a:hover {
     box-shadow: 7px 7px #295982;
-    filter: opacity(0.7);
     border-radius: 7px;
   }
 

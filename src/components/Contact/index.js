@@ -18,16 +18,30 @@ function Comtact() {
     }else if (inputType === 'message') {
       setMessage(inputValue)
     }
+  }
 
+  const handleInputBlur = (e) => {
+    const {target} = e;
+    const inputValue = target.value;
+    if (!inputValue.trim()) {
+      alert("This field is required.")
+    }
   }
 
   const handleFormSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault(); 
+    if (!name.trim() || !email.trim() || !message.trim()) {
+      alert('Please fill in all fields before sending your message.')
+      return
+    } else if (!email.match(/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/)) {
+      alert('Invalid email address - please try again!')
+      return
+    } else {
     alert('Thank you sending a message!')
     setName('');
     setEmail('');
     setMessage('');
-    
+    }
   }
 
   return (
@@ -41,6 +55,7 @@ function Comtact() {
             type="text"
             value={name}
             onChange={handleFormChange} 
+            onBlur={handleInputBlur} 
           />
         </div>
         <div>
@@ -50,6 +65,7 @@ function Comtact() {
             type="email"
             value={email}
             onChange={handleFormChange}
+            onBlur={handleInputBlur} 
           />
         </div>
         <div>
@@ -60,6 +76,7 @@ function Comtact() {
             rows="10"
             value={message}
             onChange={handleFormChange}
+            onBlur={handleInputBlur} 
           />
         </div>
         <button type="submit">Submit</button>
