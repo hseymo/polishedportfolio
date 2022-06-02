@@ -53,7 +53,7 @@ function Portfolio() {
       github="https://github.com/hseymo/Employee-Tracker" 
       image={imgEmployeeTracker}
       code="Node.js | Inquirer | MySql"
-      description="A Node.js and Inquirer tracking system that allows a business ower to track their employee information! Information is stored in a MySql database and contains three tables with multiple connecting relationships."
+      description="A Node.js and Inquirer system that allows a business owner to track their employee information. Information is stored in a MySql database and contains three tables with multiple connecting relationships. Data can be retrieved and updated through Inquirer. Checkout the README for instructions as well as a video of the app in action!"
       />
       <Project 
       name="Social Network API" 
@@ -61,7 +61,7 @@ function Portfolio() {
       github="https://github.com/hseymo/Social-Network-API" 
       image={imgSocialNetwork}
       code="Javascript | MongoDB | Mongoose ORM | Moment.js"
-      description="The goal of this project is to build an API for a social network that allows users interact. This API is built using NoSQL database (MongoDB) and ORM (Mongoose) with RESTful routing and full CRUD functionality. Checkout the video on GitHub to view it in action!"
+      description="The goal of this project is to build an API for a social network that allows users to interact. This API is built using NoSQL database (MongoDB) and ORM (Mongoose) with RESTful routing and full CRUD functionality. Checkout the video on GitHub to view it in action!"
       />
       <Project 
       name="Weather Dashboard" 
@@ -69,7 +69,7 @@ function Portfolio() {
       github="https://github.com/hseymo/Weather-Dashboard" 
       image={imgWeatherDashboard}
       code="Javascript | jQuery | Bootstrap | Open Weather API"
-      description="This Weather Dashboard aims to provide travelers with the weather outlook for different cities so that they can plan their trip. Utilizing the Open Weather Map API and Moment.js, data is fetched and displayed!"
+      description="This Weather Dashboard aims to provide travelers with the weather outlook for different cities so that they can plan their trip. Utilizing the Open Weather Map API for fetching data and moment.js for dates, current and forecasted weather displayed!"
       />
       </div>
     </div>

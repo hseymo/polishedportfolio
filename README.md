@@ -1,4 +1,4 @@
-# **[Haley's React Portfolio]()**
+# **[Haley's React Portfolio](https://haleysportfolio.herokuapp.com/)**
 
 ![Badge](https://img.shields.io/badge/license-MIT-blue)
 
@@ -72,7 +72,7 @@ NPM Packages
 ---
 The goal of this project is to build a beatiful portfolio for prospective employer's to get to know me. The interface is clean and polished. The navigation bar is easy to follow. The app contains descriptions and links to my projects, as well as a list of technical skills and a PDF link for my resume. This app was built using React, Javascript, HTML and CSS. 
 <br><br>
-Please click this [link]() to view the deployed application. <br><br>
+Please click this [link](https://haleysportfolio.herokuapp.com/) to view the deployed application. <br><br>
 
 ## Usage
 ---
