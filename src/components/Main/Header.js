@@ -4,7 +4,7 @@ import './index.css';
 
 function Header() {
   return (
-    <header className="Header">    
+    <header className="Header" >    
       <h1>Haley Seymour</h1>
       <NavBar />
     </header>

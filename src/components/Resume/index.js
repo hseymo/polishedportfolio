@@ -24,7 +24,7 @@ function Resume() {
       </div>
       {/* <h3>Career</h3>
       <p>Certified Athletic Trainer | Seattle Children's Hospital | Seattle, WA | July 2015 - February 2022</p> */}
-      <a className="ResumeBtn" href={require('./ResumePDF.pdf')}>Please click here to view or download PDF </a>
+      <a className="ResumeBtn" href={require('./Resume.docx.pdf')} target="_blank">Please click here to view or download PDF </a>
     </div>
   );
 }
