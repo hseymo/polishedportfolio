@@ -1,10 +1,16 @@
 /* RESUME */
 
+.format {
+  display: flex;
+  justify-content: space-around;
+}
+
 .resumeContainer {
   margin-top: 40px;
   background-color: whitesmoke;
   border: 2px solid #295982;
   border-radius: 15px;
+  width: 45%;
 }
 
 .Resume h3 {
@@ -18,14 +24,24 @@
   color: #295982;
   padding: 5px;
   line-height: 30px;
+  display: flex;
 }
 
-.Education li {
+.Education {
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80%;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.Skills li, .Education p {
   color: #295982;
 }
 
 .Skills {
-  word-spacing: 40px;
+  justify-content: space-around;
+  margin-bottom: 10px;
 }
 
 .ResumeBtn {
@@ -46,4 +62,22 @@
 
 li {
   list-style-type: none;
+}
+
+.item {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .format {
+    display: block;
+  }
+
+  .resumeContainer {
+    width: 100%;
+  }
+
+  .firstitem {
+    margin-bottom: 40px;
+  }
 }

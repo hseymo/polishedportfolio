@@ -5,22 +5,51 @@ function Resume() {
   return (
     <div className="Resume">
       <h2>Resume</h2>
+      <div className='format'>
       <div className="resumeContainer"> 
       <h3>Technical Skills</h3>
-      <p className="Skills">
-      Javascript React Node.js Express jQuery <br/>
-      MySql MongoDB SequelizeORM MongooseORM <br/>
-      HTML CSS Bootstrap Materialize Handlebars <br/> 
-      RESTful-APIs CRUD-functionality <br/>
-      Git Heroku Agile-Methodology <br/>
-      </p>
+      <ul className="Skills">
+        <div className='Column'>
+        <li>Javascript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Express</li>
+        <li>Handlebars</li>
+        <li>jQuery</li>
+        <li>MySql</li>
+        <li>MongoDB</li>
+        <li>SequelizeORM</li>
+        <li>MongooseORM</li>
+        </div>
+        <div className='Column'>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+        <li>Materialize</li>
+        <li>RESTful-APIs</li>
+        <li>CRUD-functionality</li>
+        <li>Git</li>
+        <li>Heroku</li>
+        <li>Agile-Methodology</li> 
+        <li>PWAs</li>
+        </div>
+      </ul>
       </div>
       <div className="resumeContainer">
       <h3>Education</h3>
-        <ul className="Education">
-          <li>Web Development Certificate | University of Washington Full Stack Flex Bootcamp | Anticipated 6/13/2022</li>
-          <li>Bachelor of Science in Athletic Training | Chapman University | 2015</li>
-        </ul>
+        <div className="Education">
+          <div className='item firstitem'>
+          <p>Web Development Certificate</p>
+          <p>University of Washington Full Stack Flex Bootcamp</p>
+          <p>June 2022</p>
+          </div>
+          <div className='item'>
+          <p>Bachelor of Science in Athletic Training</p> 
+          <p>Chapman University</p>
+          <p>May 2015</p>
+          </div>
+        </div>
+      </div>
       </div>
       {/* <h3>Career</h3>
       <p>Certified Athletic Trainer | Seattle Children's Hospital | Seattle, WA | July 2015 - February 2022</p> */}

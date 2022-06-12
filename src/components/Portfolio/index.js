@@ -8,6 +8,7 @@ const imgeCommerce =require ("./assets/eCommerce.png");
 const imgEmployeeTracker =require ("./assets/Employee.png");
 const imgWeatherDashboard =require ("./assets/Weather.png");
 const imgSocialNetwork =require ("./assets/socialNetwork.png")
+const imgSelfCare = require ("./assets/SelfCareCentral.png")
 
 function Portfolio() {
   return (
@@ -15,6 +16,14 @@ function Portfolio() {
       <h2>Portfolio</h2>
 
     <div className='container'>
+      <Project
+      name="SelfCare Central"
+      deployed="https://selfcarecentral.herokuapp.com/"
+      github="https://github.com/Interrubble/SelfCareCentral"
+      image={imgSelfCare}
+      code="React | Javascript | MySql | Sequelize"
+      description="This React-app is your one stop shop for all self-care goal setting and tracking needs. As project manager for this group project, I created the wireframe and ERD. On the back-end (deployed separately) I created the MySql server models and routes using Node.js/Sequelize ORM (deployed separately). On the front-end, I fetched, manipulated and rendered data, created forms and handled submission, and implemented React-hooks."
+      />
       <Project 
       name="Booklastic" 
       deployed="https://fathomless-bastion-58602.herokuapp.com/" 
@@ -29,7 +38,7 @@ function Portfolio() {
       github="https://github.com/hseymo/Activity-Generator" 
       image={imgActivityGenerator}
       code="Javascript | jQuery | Materialize | Third Party APIs | Local Storage"
-      description="A Materialize-interfaced activity suggestion generator that utilizes Wikipedia and Bored APIs! My responsibilities include fetch requests with query parameters, Javascript for click handlers, DOM manipulation with dynamically created elements, HTML, local storage, Kanban oversight and Git Administrator."
+      description="A Materialize-interfaced activity suggestion generator that utilizes Wikipedia and Bored APIs! My responsibilities include fetch requests with query parameters, Javascript for click handlers, DOM manipulation with dynamically created elements, HTML, local storage, Kanban oversight and Git Administrator. Please note that Bored API is not currently responding to our fetch requests, but I'd love for you to checkout the other functionality of this app."
       />
       <Project 
       name="Tech Blog" 
