@@ -15,8 +15,13 @@ function About() {
       <p>I am a BOC Certified Athletic Trainer and am licensed to practice in the state of Washington by the Department of Health. I graduated with my Bachelor of Science in Athletic Training from Chapman University. In February 2022 I ended employment of over 6 years at Seattle Children's Hospital. During that time I was the head Athletic Trainer at The Bush School, lead for our CPR program, Cystic Fibrosis Exercise Specialist, and one of the first Athletic Trainers in a brand new role that brought Athletic Trainers into the Orthopedics and Sports Medicine Clinic.</p>
       <br/>
       <p>My hobbies include innovation, volunteer coaching for Girls on The Run Puget Sound, country music, sports medicine, hiking, soccer, Peloton, reading, spending time with friends/family, and interior design. I am a member of ATPPS, NATA and the Gamma Phi Beta sorority.</p>
-      <img alt="Mt Rainer" src={require("./snowPic.png")} width='60%' className='snowPhoto'/>
-      <figcaption>Snowshoeing at Mt. Rainier, February 2022</figcaption>
+      <div id='snowshoepic'>
+        <img alt="Mt Rainer" src={require("./snowPic.png")} width='60%' className='snowPhoto'/>
+        <figcaption>Snowshoeing at Mt. Rainier, February 2022</figcaption>
+      </div>
+      <div className='bottom'>
+      <div className="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="haley-seymour-lat-atc-a5b01052" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/haley-seymour-lat-atc-a5b01052?trk=profile-badge"></a></div>
+    </div>
     </div>
   );
 }

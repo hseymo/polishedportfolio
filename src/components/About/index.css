@@ -14,6 +14,16 @@
   color: #295982;
   }
 
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.badge-base {
+  margin-left: 50px;
+}
+
   /* MEDIA SCREENS */
 @media screen and (max-width: 831px) {
   .headshot {
