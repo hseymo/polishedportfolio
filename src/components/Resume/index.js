@@ -19,7 +19,7 @@ function Resume() {
         <li>MySql</li>
         <li>MongoDB</li>
         <li>SequelizeORM</li>
-        <li>MongooseORM</li>
+        <li>MongooseODM</li>
         </div>
         <div className='Column'>
         <li>HTML</li>
