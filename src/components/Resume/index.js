@@ -5,6 +5,7 @@ function Resume() {
   return (
     <div className="Resume">
       <h2>Resume</h2>
+      <a className="ResumeBtn" href={require('./Resume.docx.pdf')} target="_blank">Please click here to view or download PDF </a>
       <div className='format'>
       <div className="resumeContainer"> 
       <h3>Technical Skills</h3>
@@ -53,7 +54,6 @@ function Resume() {
       </div>
       {/* <h3>Career</h3>
       <p>Certified Athletic Trainer | Seattle Children's Hospital | Seattle, WA | July 2015 - February 2022</p> */}
-      <a className="ResumeBtn" href={require('./Resume.docx.pdf')} target="_blank">Please click here to view or download PDF </a>
     </div>
   );
 }
