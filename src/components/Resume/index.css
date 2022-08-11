@@ -50,8 +50,8 @@
   padding: 10px;
   border: 3px solid #6FABD0;
   border-radius: 10px;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  /* margin-bottom: 20px; */
   display: block;
 }
 
@@ -71,6 +71,7 @@ li {
 @media screen and (max-width: 700px) {
   .format {
     display: block;
+    padding-bottom: 30px;
   }
 
   .resumeContainer {
