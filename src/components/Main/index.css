@@ -150,10 +150,16 @@ nav li:hover {
   Header h1 {
       height: 5vh;
   }
+
+  nav {
+    padding-bottom: 20px;
+  }
+
   nav li {
     display: block;
     padding: 0px;
   }
+
 }
 
 @media screen and (max-width: 400px) {
