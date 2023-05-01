@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './index.css';
 import API from "../../utils/API.js";
 
-function Comtact() {
+function Contact() {
   const [message, setMessage] = useState({
     name: '',
     email: '', 
@@ -89,4 +89,4 @@ function Comtact() {
   );
 }
 
-export default Comtact;
+export default Contact;

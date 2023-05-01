@@ -14,6 +14,7 @@ function Portfolio() {
   return (
     <div className="Portfolio">
       <h2>Portfolio</h2>
+      <h2 id='notice'>Please note that not all projects are currently hosted live. If you would like to see more, please let me know!</h2>
 
     <div className='container'>
       <Project

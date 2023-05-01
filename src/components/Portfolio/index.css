@@ -9,6 +9,12 @@
     color: #295982;
 }
 
+#notice {
+    background-color: whitesmoke;
+    color: #295982;
+    font-size: 22px;
+}
+
 .portfolioCard {
     margin-top: 20px;
     margin-bottom: 20px;
